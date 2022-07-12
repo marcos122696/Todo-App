@@ -18,7 +18,7 @@ export const TodoApp = () => {
             className="title"
         >
             TodoApp
-            <small className="small-1">Todos: { todosCount }</small> 
+            <small className="small-1">Tareas: { todosCount }</small> 
             <small className="small-2">Pendientes: { pendingTodosCount }</small>
         </h1>
         
