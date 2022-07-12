@@ -11,9 +11,14 @@ body {
     padding: 10px 10px 0 10px;
 }
 
+li {
+    margin: 1px 0 1px 0;
+}
+
 span {
     cursor: pointer;
     user-select: none;
+    overflow: hidden;
 }
 
 .small-1 {
@@ -35,6 +40,17 @@ span {
 
     h4 {
         text-align: center;
+    }
+
+    li {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    span {
+        margin-bottom: 10px;
+        text-overflow: hidden;
+        width: 100%;
     }
 
     .row {
