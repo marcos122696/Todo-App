@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    background-color: rgb(54, 51, 51);
+}
+
+body {
+    padding: 10px 10px 0 10px;
+}
+
+span {
+    cursor: pointer;
+    user-select: none;
+}
+
+.small-1 {
+    color: rgb(74, 99, 149);
+    margin: 0 10px 0 10px;
+}
+
+.small-2 {
+    color: rgb(149, 119, 74);
+}
+
+
+@media screen and (max-width: 950px){
+    
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+    
+    .small-1 {
+        margin: 10px 0 10px 0;
+        text-decoration: underline;
+    }
+
+    .small-2 {
+        text-decoration: underline;
+    }
+    
+    .col-7, .col-5 {
+        width: 100%;
+        margin-top: 10px;
+    }
+};
